@@ -1,0 +1,249 @@
+{
+    "ports": [
+        {
+            "id": "portA",
+            "material": "generic"
+        },
+        {
+            "id": "portB",
+            "material": "wool"
+        },
+        {
+            "id": "portC",
+            "material": "cereal"
+        },
+        {
+            "id": "portD",
+            "material": "wood"
+        },
+        {
+            "id": "portE",
+            "material": "mineral"
+        },
+        {
+            "id": "portF",
+            "material": "generic"
+        },
+        {
+            "id": "portG",
+            "material": "generic"
+        },
+        {
+            "id": "portH",
+            "material": "generic"
+        },
+        {
+            "id": "portI",
+            "material": "clay"
+        }
+    ],
+    "tiles": [
+        {
+            "id": "tile10",
+            "material": "desert",
+            "edges": {
+                "top-left": "tile05",
+                "top-right": "tile06",
+                "left": "tile09",
+                "right": "tile11",
+                "bottom-left": "tile14",
+                "bottom-right": "tile12"
+            }
+        },
+        {
+            "id": "tile01",
+            "material": "cereal",
+            "edges": {
+                "top-right": "portB",
+                "left": "tile02",
+                "bottom-left": "tile04",
+                "bottom-right": "tile05"
+            }
+        },
+        {
+            "id": "tile02",
+            "material": "cereal",
+            "edges": {
+                "left": "tile01",
+                "right": "tile03",
+                "bottom-left": "tile05",
+                "bottom-right": "tile06"
+            }
+        },
+        {
+            "id": "tile03",
+            "material": "cereal",
+            "edges": {
+                "left": "tile02",
+                "bottom-left": "tile06",
+                "bottom-right": "tile07",
+                "top-right": "portA"
+            }
+        },
+        {
+            "id": "tile04",
+            "material": "clay",
+            "edges": {
+                "top-right": "tile01",
+                "left": "portE",
+                "right": "tile05",
+                "bottom-left": "tile08",
+                "bottom-right": "tile09"
+            }
+        },
+        {
+            "id": "tile05",
+            "material": "wood",
+            "edges": {
+                "top-left": "tile01",
+                "top-right": "tile02",
+                "left": "tile04",
+                "right": "tile06",
+                "bottom-left": "tile09",
+                "bottom-right": "tile10"
+            }
+        },
+        {
+            "id": "tile06",
+            "material": "wool",
+            "edges": {
+                "top-left": "tile02",
+                "top-right": "tile03",
+                "left": "tile05",
+                "right": "tile07",
+                "bottom-left": "tile10",
+                "bottom-right": "tile11"
+            }
+        },
+        {
+            "id": "tile07",
+            "material": "wool",
+            "edges": {
+                "top-left": "tile03",
+                "top-right": "portF",
+                "left": "tile06",
+                "bottom-left": "tile11",
+                "bottom-right": "tile13"
+            }
+        },
+        {
+            "id": "tile08",
+            "material": "wool",
+            "edges": {
+                "top-right": "tile04",
+                "right": "tile09",
+                "bottom-right": "tile12"
+            }
+        },
+        {
+            "id": "tile09",
+            "material": "clay",
+            "edges": {
+                "top-left": "tile04",
+                "top-right": "tile05",
+                "left": "tile08",
+                "right": "tile10",
+                "bottom-left": "tile12",
+                "bottom-right": "tile14"
+            }
+        },
+        {
+            "id": "tile11",
+            "material": "mineral",
+            "edges": {
+                "top-left": "tile06",
+                "top-right": "tile07",
+                "left": "tile10",
+                "right": "tile13",
+                "bottom-left": "tile15",
+                "bottom-right": "tile16"
+            }
+        },
+        {
+            "id": "tile13",
+            "material": "wood",
+            "edges": {
+                "top-left": "tile07",
+                "left": "tile11",
+                "right": "portG",
+                "bottom-left": "tile16"
+            }
+        },
+        {
+            "id": "tile12",
+            "material": "wool",
+            "edges": {
+                "top-left": "tile08",
+                "top-right": "tile09",
+                "left": "portH",
+                "right": "tile14",
+                "bottom-right": "tile17"
+            }
+        },
+        {
+            "id": "tile14",
+            "material": "mineral",
+            "edges": {
+                "top-left": "tile09",
+                "top-right": "tile10",
+                "left": "tile12",
+                "right": "tile15",
+                "bottom-left": "tile17",
+                "bottom-right": "tile18"
+            }
+        },
+        {
+            "id": "tile15",
+            "material": "mineral",
+            "edges": {
+                "top-left": "tile10",
+                "top-right": "tile11",
+                "left": "tile14",
+                "right": "tile16",
+                "bottom-left": "tile18",
+                "bottom-right": "tile19"
+            }
+        },
+        {
+            "id": "tile16",
+            "material": "clay",
+            "edges": {
+                "top-left": "tile11",
+                "top-right": "tile13",
+                "left": "tile15",
+                "bottom-left": "tile19",
+                "bottom-right": "portI"
+            }
+        },
+        {
+            "id": "tile17",
+            "material": "wood",
+            "edges": {
+                "top-left": "tile12",
+                "top-right": "tile14",
+                "right": "tile18"
+            }
+        },
+        {
+            "id": "tile18",
+            "material": "wood",
+            "edges": {
+                "top-left": "tile14",
+                "top-right": "tile15",
+                "left": "tile17",
+                "right": "tile19"
+            }
+        },
+        {
+            "id": "tile19",
+            "material": "cereal",
+            "edges": {
+                "top-left": "tile15",
+                "top-right": "tile16",
+                "bottom-left": "portC",
+                "left": "tile18",
+                "right": "portD"
+            }
+        }
+    ]
+}
